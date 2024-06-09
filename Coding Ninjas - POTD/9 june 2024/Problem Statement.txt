@@ -1,0 +1,5 @@
+Problem statement
+You have been given an array 'ARR' of integers consisting of ‘N’ integers and a positive integer ‘K’. Your task is to find a subarray(contiguous) of size ‘K’ such that the sum of its elements is minimum.
+
+Note :
+You can assume that the value of ‘K’ will always be less than or equal to ‘N’. So, the answer will always exist.
