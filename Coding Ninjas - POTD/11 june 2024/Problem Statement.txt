@@ -1,0 +1,8 @@
+Problem :- Vaccination Drive
+
+Problem statement
+The Indian government recently launched the world's largest vaccination drive for COVID-19. 
+Dr Ritesh has been appointed as a nodal officer for vaccinating a locality. 
+There are ‘N’ houses numbers from 1 to ‘N’ in that locality. Dr Ritesh will visit each house one by one and vaccinate all the people in the house. 
+He has already covered ‘K’ number of houses. Since ‘N’ is a very large number, ‘L’ bits are required to represent the number. 
+You are supposed to help Dr Ritesh and find the maximum possible number of houses that are yet to be covered under the vaccination drive.
