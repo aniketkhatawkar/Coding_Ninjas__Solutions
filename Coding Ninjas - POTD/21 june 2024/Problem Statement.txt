@@ -1,0 +1,5 @@
+Binary Linked List To Integer
+
+Problem statement
+You are given a singly linked list containing ‘n’ nodes, where every node in the linked list contains a pointer “next” which points to the next node in the list and having values either 0 or 1. 
+Your task is to return the decimal representation of the given number in the linked list.
