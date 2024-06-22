@@ -1,0 +1,5 @@
+Boring Factorials
+
+Problem statement
+You are given an integer ‘N’ and a prime number ‘P’. 
+Your task is to find the N! modulo P.
