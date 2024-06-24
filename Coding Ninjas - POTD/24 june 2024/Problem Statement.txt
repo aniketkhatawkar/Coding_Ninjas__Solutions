@@ -1,0 +1,13 @@
+Maximum Sum Rectangle
+
+Problem statement
+You are given a matrix ‘ARR’ with ‘N’ rows and ‘M’ columns. 
+Your task is to find the maximum sum rectangle in the matrix.
+
+Maximum sum rectangle is a rectangle with the maximum value for the sum of integers present within its boundary, 
+considering all the rectangles that can be formed from the elements of that matrix.
+
+For Example
+Consider following matrix:
+
+The rectangle (1,1) to (3,3) is the rectangle with the maximum sum, i.e. 29.
