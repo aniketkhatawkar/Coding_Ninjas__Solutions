@@ -1,0 +1,7 @@
+Break The Board
+
+Problem statement
+You’re given a board of length 'L' and width 'W'. Your task is to break this board into 'L' * 'W' smaller squares, such that the total cost involved in breaking is the minimum possible.
+
+NOTE:
+The breaking cost of each edge for the board will be given.
