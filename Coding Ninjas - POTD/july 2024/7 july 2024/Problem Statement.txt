@@ -1,0 +1,18 @@
+Ninja And The Pizzas
+
+Problem statement
+Ninja loves cooking, and he decided to make the pizza for his friend. His friend loves eating cheese with the pizza; hence Ninja decided to fill the pizza with the cheese.
+
+For our convenience, let's consider the rectangular pizza slices only, and to increase the amount of cheese, the Ninja decided to cut some slices in pizza. Each slice can be cut only once, and the resulting pieces must also be rectangular.
+
+Ninja decided to cut it in at most 'K' slices so that no one gets suspicious.
+
+Given 'N' number of slices have, 'K' maximum number of slices Ninja can cut and two arrays ‘L’ and ‘B’ stating the length and breadth of each slice, your task is to help Ninja find out the maximum extra cheese needed to fill the newly formed boundaries in pizza.
+
+EXAMPLE:
+Input: 'N' = 2, 'K' = 1
+       'L' = [4, 2]
+       'B' = [6, 8]
+Output: 16
+
+To maximize the cheese usage, Ninja can cut a second cake parallel to the side of length 8. So extra cheese needed will be 16.
