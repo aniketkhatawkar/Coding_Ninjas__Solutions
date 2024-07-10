@@ -1,0 +1,11 @@
+ Matrix Game
+
+Problem statement
+Ninja is a teacher at a school. He introduced a game of matrix.
+ He gives a square matrix, i.e., NxN matrix, to all the school students and asks them to check if the matrix is idempotent or not.
+
+A matrix is an idempotent matrix if a matrix multiplied by itself returns the same matrix. The matrix M is said to be an idempotent matrix if and only if M * M = M. 
+In the idempotent matrix, M is a square matrix.
+
+Among them, a student Ninja is new to programming; he doesn’t have much experience; 
+he asks you to solve the problem. Can you help Ninja figure out whether the matrix is idempotent?
