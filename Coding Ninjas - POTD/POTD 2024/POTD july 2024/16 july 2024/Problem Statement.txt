@@ -1,0 +1,6 @@
+K-th Smallest
+
+Problem statement
+You are given an N x M matrix ‘MAT’ and an integer ‘K’. 
+All rows in the matrix have values in sorted order. You can choose 1 integer from each row and make an array of length ‘N’. 
+Your task is to find the smallest k-th smallest array sum out of all the possibilities.
