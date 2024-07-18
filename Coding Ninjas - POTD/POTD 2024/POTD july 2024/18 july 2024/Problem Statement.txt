@@ -1,0 +1,8 @@
+Largest Prime Factor
+
+Problem statement
+You are given a positive integer ‘n’. 
+Your task is to find the largest prime factor of this given positive integer.
+
+Note :
+If there is no prime factor of a given integer, then print -1.
