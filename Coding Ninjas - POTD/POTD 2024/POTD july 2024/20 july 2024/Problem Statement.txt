@@ -1,0 +1,7 @@
+ Partition
+
+Problem statement
+
+You are given a linked list and a number ‘x’, 
+You have to partition the linked list in such a way that all nodes with a value less than 'x' comes before the nodes with values greater than or equal to 'x'. 
+The original relative order should be
