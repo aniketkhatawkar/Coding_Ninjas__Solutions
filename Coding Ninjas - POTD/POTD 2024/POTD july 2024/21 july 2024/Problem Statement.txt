@@ -1,0 +1,10 @@
+N Queue Using Array
+
+Problem statement
+You will be given ‘N’ queries. You need to implement ‘N’ queues using an array according to those queries. Each query will belong to one of these two types:
+
+1 ‘X’ N: Enqueue element ‘X’  into the end of the nth queue. Returns true if the element is enqueued, otherwise false.
+
+2 N: Dequeue the element at the front of the nth queue. Returns -1 if the queue is empty, otherwise, returns the dequeued element.
+Note:
+Please note that Enqueue means adding an element to the end of the queue, while Dequeue means removing the element from the front of the queue.
