@@ -1,0 +1,15 @@
+Grid Overlap
+
+Problem statement
+You are given two binary grids ‘MAT1’ and ‘MAT2’ of size N x N each. Both grids either have 0 or 1 written in each cell.
+
+You can perform four types of operations to MAT1-
+
+• Right Shift
+• Left Shift
+• Up Shift
+• Down Shift
+
+You can perform any of the above operations in any order, any number of times(possibly zero) to MAT1.
+
+Overlap of two grids is defined as the number of cells which have 1 written in it, in both the grids. Your task is to find the maximum possible overlap between ‘MAT1’ and ‘MAT2’ after applying some operations to ‘MAT1’.
