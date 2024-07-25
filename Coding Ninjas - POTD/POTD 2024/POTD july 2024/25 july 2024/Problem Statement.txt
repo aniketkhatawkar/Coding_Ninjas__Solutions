@@ -1,0 +1,8 @@
+Toss Strange Coins
+
+Problem statement
+You are given ‘N’ coins, and an array ‘PROB’. 
+These coins are “strange” because the probability of getting the head or tail is not ‘1/2’, 
+the probability of getting a head face is denoted by the ‘PROB’ array. 
+You are also given a positive integer ‘TARGET’, denoting the number of the coins facing heads you want if you toss every coin exactly once. 
+Your task is to find out the “probability” of doing so.
