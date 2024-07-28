@@ -1,0 +1,12 @@
+Count Number Of Rounds
+
+Problem statement
+Given an integer ‘N’, you need to make the maximum possible number of moves where each move consists of choosing a positive integer ‘X’ > 1, 
+such that ‘N’ is divisible by ‘X’ and replacing ‘N’ with ‘N/X’.
+
+When ‘N’ becomes equal to 1 and there are no more possible valid moves. 
+You need to stop and your score is equal to the number of moves made.
+
+Given ‘N’ is of the form a! / b! ( i.e. factorial of ‘a’ divided by factorial of ‘b’) for some positive integer ‘a’ and ‘b’ (a ≥ b).
+
+You need to find and return the maximum possible score you can achieve.
