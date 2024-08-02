@@ -1,0 +1,8 @@
+Minimum Rotations
+
+Problem statement
+You’re given a string 'S' of length 'N'. 
+Your task is to find the minimum number of rotations to get the same string 'S'.
+
+NOTE :
+The string only consists of lowercase English alphabets.
