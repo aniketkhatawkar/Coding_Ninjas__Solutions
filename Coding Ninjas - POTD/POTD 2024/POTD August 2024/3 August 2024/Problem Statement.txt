@@ -1,0 +1,7 @@
+Maximum 1s
+
+Problem statement
+You are given a matrix ‘ARR’ with dimensions ‘N’ * ‘M’ and containing only 0s and 1s where each row is sorted.
+
+Your task is to find the index of the row with a maximum number of 1s in it. 
+Rows and columns are 0-indexed based.
