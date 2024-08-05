@@ -1,0 +1,11 @@
+Angle Between Hour Hand And Minute Hand
+
+Problem statement
+Given the time in hours and minutes, 
+you need to calculate the angle between the hour hand and the minute hand.
+
+Note :
+There can be two angles between the hour hand and minute hand, 
+you need to print a minimum of two. 
+Also, print the floor value of angle i.e. if the angle is 15.2, 
+you need to print 15.
