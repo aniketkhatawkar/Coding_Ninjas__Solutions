@@ -1,0 +1,17 @@
+Sort The Tuples
+
+Problem statement
+You are given an array of tuples ‘ARR’ of length ‘N’. 
+All the tuples are of length ‘L’. Sort the tuples in non-decreasing order by the last element of tuples. 
+If the last element of two tuples are equal then the tuple with the smallest index should be placed first.
+
+Note: The length of all the tuples will be the same.
+
+Example:
+Input: ‘N’ = 3, ‘L’ = 2,  ‘ARR’ = [(1, 1), (5, 3), (8, 2)]. 
+
+Output: [(1, 1), (8, 2), (5, 3)].
+
+The last values of each type are (1, 3, 2). 
+Sorting them in non-decreasing order we get (1, 2, 3). 
+Hence the final result is [(1, 1), (8, 2), (5, 3)].
