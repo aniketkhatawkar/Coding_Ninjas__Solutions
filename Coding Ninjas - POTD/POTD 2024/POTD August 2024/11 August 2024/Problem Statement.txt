@@ -1,0 +1,14 @@
+String Reverse
+
+Problem statement
+You are having a string ‘S’ containing ASCII characters.
+You are required to reverse the input string.
+Output the reverse of the string ‘S’.
+
+
+
+Example :
+S = “hello”
+
+Explanation : 
+The reverse of the string ‘S’ is “olleh”.
