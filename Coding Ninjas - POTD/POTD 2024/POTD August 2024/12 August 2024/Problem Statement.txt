@@ -1,0 +1,10 @@
+Meta Strings
+
+Problem statement
+You are given two strings 'STR1' and 'STR2'. 
+You need to tell whether the strings are meta strings or not.
+
+Meta strings are strings that can be made equal by swapping exactly one pair of distinct characters in one of the strings.
+
+Note:
+Equal strings are not considered as meta strings. 
