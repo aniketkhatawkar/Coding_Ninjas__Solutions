@@ -1,0 +1,9 @@
+Find nth elements of spiral matrix
+
+Problem statement
+Given a matrix with ‘N’ rows and ‘M’ columns and an integer ‘K’. 
+Your task is to find the “Kth” element which is obtained while traversing the matrix in spiral form.
+
+Spiral Traversing in the matrix:
+
+The below picture can clearly show how to traverse a matrix in spiral form.
