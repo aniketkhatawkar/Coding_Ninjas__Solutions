@@ -1,0 +1,14 @@
+Balanced Sequence After Replacement
+
+Problem statement
+You are given a string of length ‘N’ containing only the following characters: ‘[’, ‘{’, ‘(’, ‘)’, ‘}’, ‘]’. 
+At some places, there is ‘X’ in place of any bracket. 
+Your task is to determine that if you replace all the X’s with appropriate brackets,
+ is it possible to get a valid balanced sequence or not.
+
+For example:
+
+For the given string “[X)](X”, the possible replacement for the first X is ‘(‘ and the second X is ‘)’, 
+which makes the sequence “[()]()”, which is a valid balanced sequence. 
+
+For the given string “[XX{”, there is no possible replacement for X which can make it a valid bracket sequence.  
