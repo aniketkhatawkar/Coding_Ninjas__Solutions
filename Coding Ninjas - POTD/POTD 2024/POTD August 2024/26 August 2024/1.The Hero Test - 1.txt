@@ -1,0 +1,13 @@
+The Hero Test - 1
+
+Problem statement
+Ninja wants the hero certificate to get the support of local police and government to help the people. 
+But to get the hero certificate he needs to clear an exam.
+
+The exam consists of ‘N’ questions from ‘1’ to ‘N’. To clear the exam Ninja needs to solve in a particular order. 
+He needs to leave one question after solving one question(assume that after ‘N’th question he will come back to the first question). 
+He will perform this action till all questions are solved. Help Ninja in exams by telling him the order.
+
+For Example:
+If there are ‘5’ questions then the order will be:
+“ 2 4 1 5 3 ”
