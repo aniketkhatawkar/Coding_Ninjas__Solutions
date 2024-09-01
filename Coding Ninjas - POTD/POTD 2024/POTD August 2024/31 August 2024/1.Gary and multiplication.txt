@@ -1,0 +1,20 @@
+Gary and multiplication
+
+Problem statement
+Gary has recently learned about priority queues and is quite excited about them. He has asked his teacher for an interesting problem. 
+So, his teacher came up with a simple problem.
+
+The problem is that he now has an integer array 'ARR'. For every index i, he wants to find the product of the largest, 
+second largest and the third largest integer in the range [0, i] given that array has 0 based indexing.
+
+You have to return the list as required.
+
+Note: Two numbers can be the same value-wise but they should be distinct index-wise.
+
+Example:
+If the array is [2, 3, 3, 4], the answer should be:-
+
+-1 
+-1
+18 (3 * 3 * 2)
+36 (4 * 3 * 3) 
