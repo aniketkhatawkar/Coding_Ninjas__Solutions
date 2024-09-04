@@ -1,0 +1,15 @@
+Slot Game
+
+Problem statement
+You’re given a slot machine with four slots where each slot will contain the color Red(R), Yellow(Y), Green(G), Blue(B), respectively. 
+You don’t know the colors of this slot beforehand. You have to guess the colors. When you guess the correct color for the correct slot, you get a perfect hit, 
+and you get 2 points, but if you guess a color that exists in the machine but is in the wrong slot, you get a pseudo hit, and you get 1 point.
+
+You’re given the original string representing the slots’ colors and the guess string, and your task is to calculate and return the total number of points you have scored.
+
+Note:
+
+A slot that has been counted as a perfect hit can never count as a pseudo-hit.
+Example:
+
+Original String = “RGYB” and Guess String = “YGRR”.

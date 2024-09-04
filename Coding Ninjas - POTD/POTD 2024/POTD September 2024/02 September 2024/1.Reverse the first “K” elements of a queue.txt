@@ -1,0 +1,13 @@
+Reverse the first “K” elements of a queue
+
+Problem statement
+You have been given a queue and an integer ‘K’. 
+You need to reverse the order of the first ‘K’ elements of the queue.
+
+Note :
+The relative order of other elements should be maintained.
+For example :
+If Q = [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
+and ‘K’ = 4 
+then the output will be
+Q = [ 40, 30, 20, 10, 50, 60, 70, 80, 90, 100]
