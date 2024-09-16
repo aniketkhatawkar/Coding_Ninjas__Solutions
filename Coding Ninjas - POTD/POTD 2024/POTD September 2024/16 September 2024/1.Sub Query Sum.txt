@@ -1,0 +1,15 @@
+Sub Query Sum
+
+Problem statement
+You have given a 2-dimensional array ‘ARR’ with ‘N’ rows and ‘M’ columns. 
+The queries are given in a 2-dimensional array ‘Queries’ of size ‘K’, 
+in which Queries[i] contains four integers denoting the left top and right bottom indices of the submatrix whose sum we need to find. 
+Your task is to find the sum of the submatrix for each query given in the array ‘Queries’.
+
+For example:
+
+Consider ARR = [[1 , 2 , 3] , [3 , 4 , 1] , [2 , 1 , 2]] and Queries = [[0 , 0 , 1 , 2]], 
+the submatrix with the left top index (0 , 0) and right bottom index (1 , 2) is  
+                      [[1 , 2 , 3] , 
+                       [3 , 4 , 1]]. 
+The sum of the submatrix is 14. Hence, the answer is 14 in this case.
