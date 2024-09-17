@@ -1,0 +1,16 @@
+String Without 000 Or 111
+
+Problem statement
+You have to create any binary string ‘S’ of length ‘M+N’ which has exactly ‘M’ 0’s and ‘N’ 1’s. 
+S can not have ‘111’ or ‘000’ as a substring.
+
+Given ‘M’ and ‘N’ it is guaranteed that there exists at least one binary string ‘S’.
+
+The substring of a string is obtained by deleting characters from the start and end of the string.
+
+For example:
+M = 6, N = 6
+ANS = “110011001100”
+
+In ans no three consecutive characters are same. 
+ANS=”001100110011” is also a valid answer.
