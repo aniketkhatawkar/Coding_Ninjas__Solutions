@@ -1,0 +1,17 @@
+Rearrange Sentences
+
+Problem statement
+You are given an array of ‘N’ sentences. Each sentence is a space-delimited string of words. 
+The first word in each sentence is an alphanumeric identifier. 
+Then, at least one of the following conditions will hold true:
+
+1. After identifier, each word will consist only of lowercase English letters
+2. After the identifier, each word will consist only of numbers.
+We will call these two types of sentences, letter – sentence and number– sentence. 
+It is guaranteed that each sentence has at least one word after its identifier. 
+Your task is to sort these sentences such that the following two conditions will hold.
+
+1. All letter - sentences must come before number- sentences.
+2. The letter - sentences must be ordered lexicographically ignoring identifiers. 
+The identifier will be used in case of ties.
+3. The number– sentence must be put in their original order of occurrence. 
