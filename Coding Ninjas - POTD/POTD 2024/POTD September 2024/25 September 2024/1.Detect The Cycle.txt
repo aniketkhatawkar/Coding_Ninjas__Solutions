@@ -1,0 +1,7 @@
+Detect The Cycle
+
+Problem statement
+Kevin has given you a Singly Linked List that contains only integers. 
+You have to determine if it forms a cycle or not.
+
+A cycle occurs when a node's next pointer points back to a previous node in the list.
