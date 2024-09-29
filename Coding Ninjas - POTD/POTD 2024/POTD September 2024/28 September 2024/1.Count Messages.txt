@@ -1,0 +1,18 @@
+Count Messages
+
+Problem statement
+You are given a task to do some analysis for a messaging service application.
+
+You are given series of queries of two types :
+
+1 'user' 'time', denoting that the query is of type-1, and a person named 'user' has received a message at the time 'time'.
+
+2 ‘l’ ‘r’ 'user' ‘k’, denoting that the query is of type-2, and [l, r] being a range of time, 'user' is a name of a person, ‘k’ is the chunk size.
+For query of type-2 you need to print a list of integers, representing the number of messages the person 'user' received in each of the time chunks of size ‘k’, 
+in time period [l, r].
+
+Example:
+If [l, r] = [10, 100] and ‘k’ = 35, then the chunks of size ‘k’ for the range will be:  [10, 44], [45, 79], [80, 100]. You need to return a list of size 3 here for each of these 3 chunks, 
+where you tell the number of times a message is received by the person in that particular chunk (or sliced range).
+Note :
+Here you will implment function receiveMessage(user,time) for query of type-1, and implement function getMessageCount(l,r,user,k) for query fo type-2.
