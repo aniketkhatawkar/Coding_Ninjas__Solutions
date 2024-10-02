@@ -1,0 +1,14 @@
+Find Character Case
+
+Problem statement
+You are given a character ‘CH’ as input, 
+return either 1, 0 or -1 according to the following rules:
+
+1, if the character is an uppercase alphabet (A - Z).
+
+0, if the character is a lowercase alphabet (a - z).
+
+-1, if the character is not an alphabet.
+
+For Example :
+If ‘CH’ = ‘a’, then since it is a lowercase letter, your program should return 0.
