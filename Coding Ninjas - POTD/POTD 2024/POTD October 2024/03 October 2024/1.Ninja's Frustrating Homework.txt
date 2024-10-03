@@ -1,0 +1,15 @@
+Ninja's Frustrating Homework
+
+Problem statement
+Ninja got a summer vacation homework in which he got a booklet containing a very long string and some set of words written in his diary for which he had to search all these words in that string booklet.
+
+His teacher asked him to write all the starting indices for all the words written in the diary after searching that from the string booklet.
+
+Ninja finds this work very frustrating. He tries to find some help from his neighbor and currently, you are the one who is his neighbor.
+
+It is very time consuming to find every word in the string booklet manually. So you decide to design a code for that. Help Ninja!
+
+Note :
+
+Follow 0 based indexing. 
+Print the indices in sorted order.
