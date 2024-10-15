@@ -1,0 +1,16 @@
+Interesting Alphabets
+
+Problem statement
+As a part of its competition, the school will conduct a codeathon, Lock the Code, where it has been given a value, and the participants have to decode it.
+
+The participants are given a value denoting the number of rows in the matrix; they need to print the pattern.
+
+Example : 
+
+For N=5, Pattern:
+E
+DE
+CDE
+BCDE
+ABCDE 
+Among the participants, Ninja is new to programming and doesn’t have much experience; he asks you to solve the problem. Can you help solve this problem?
