@@ -1,0 +1,9 @@
+Meeting
+
+Problem statement
+Ninja is organizing a meeting in an office that starts at a time ‘0’ and will end at a time ‘LAST’. There are ‘N’ presentations that are going to take place in that meeting whose start and end times are given, i.e., ‘ith’ presentation starts at ‘START[i]’ and ends at ‘END[i]’. The presentations don’t overlap with each other. Ninja wants to reschedule at most ‘K’ presentations keeping the original order intact so that the longest period in which there is no presentation scheduled during the meeting is maximized.
+
+Since Ninja is busy with other office work, your task is to help Ninja to reschedule at most ‘K’ presentations.
+
+Note:
+The presentation’s duration can’t be changed. You can only change the start and end times.
