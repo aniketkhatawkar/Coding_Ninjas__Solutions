@@ -1,0 +1,5 @@
+Spiral Matrix
+
+Problem statement
+You are given a 2-D array 'MATRIX' of dimensions N x M, of integers. 
+You need to return the spiral path of the matrix.
