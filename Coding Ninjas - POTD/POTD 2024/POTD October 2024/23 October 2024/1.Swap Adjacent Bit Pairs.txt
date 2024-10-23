@@ -1,0 +1,8 @@
+Swap Adjacent Bit Pairs
+
+Problem statement
+You are given an integer 'N'. Your task is to find the number formed after swapping each even bit of 'N' in its binary representation with its adjacent bit on the right, assuming that the least significant bit is an odd bit.
+
+For example :
+
+Consider the integer N = 45 whose binary representation is 101101. The resulting number formed after swapping each even bit with its adjacent bit to the right will be 30 (011110) in this case.
