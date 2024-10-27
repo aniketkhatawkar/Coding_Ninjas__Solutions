@@ -1,0 +1,21 @@
+Round Robin
+
+Problem statement
+Round Robin is a CPU Scheduling algorithm where each process is assigned a fixed time slice / quantum in a cyclic manner.
+
+You should be aware of the following terms before proceeding:
+
+Arrival time: Time at which the process arrives.
+
+Burst time: The time the process takes for its execution. 
+
+Completion time: Time at which the process completes its execution.
+
+Turn Around time: Time difference between the Completion time and the Arrival time.
+
+Waiting time: Time difference between the Turn Around time and the Burst time.
+You are given time slice / quantum and a list of processes where 'PROCESS[ i ]' denotes the Burst time of the process 'i'. Your task is to perform Round Robin scheduling and print a list of Waiting time where (i)th index of your list denotes the waiting time for 'PROCESS[ i ]'.
+
+Note:
+
+You can consider Arrival time for every process to be 0. 
