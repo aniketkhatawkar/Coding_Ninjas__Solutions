@@ -1,0 +1,13 @@
+Create A Matrix With Alternating X And 0
+
+Problem statement
+You are given two integers ‘N’ and ‘M’. Your task is to create a matrix of size N x M in which every element is either ‘X’ or ‘0’. The ‘X’s and ‘0’s must be filled alternatively, the matrix should have an outermost rectangle of ‘X’s, then a rectangle of ‘0’s, then a rectangle of ‘X’s, and so on.
+
+For example :
+For given dimension N = 5 and M = 5 :
+
+[      [X, X, X, X, X],
+       [X, 0, 0, 0, X],
+       [X, 0, X, 0, X],
+       [X, 0, 0, 0, X],
+       [X, X, X, X, X]     ]

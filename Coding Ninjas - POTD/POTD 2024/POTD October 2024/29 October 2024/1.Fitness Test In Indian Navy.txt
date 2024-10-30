@@ -1,0 +1,12 @@
+Fitness Test In Indian Navy
+
+Problem statement
+Selection in the Indian Navy includes a fitness test which is conducted in the seawater. In this test, there will be a group of 3 trainees appearing for the swimming test in the sea for three rounds. The oxygen level remaining of each trainee will be recorded after each round in 2D matrix/list ‘OXYGEN’ of size 3 x 3.
+
+After the trainee is finished with all rounds, an Officer from the Indian Navy calculates each trainee's remaining oxygen level over the three rounds and selects one with the highest average oxygen level as the fittest trainee. If more than one trainee attains the same highest average level, they all need to be chosen.
+
+The final result of the test will depend upon the following factors :
+
+1. The remaining oxygen level should only be  accepted if it is in the range between [1, 100] both inclusive else the oxygen level will be marked as 0.
+2. If the calculated maximum average oxygen remaining value of trainees is below 70, then declare the trainees as unfit with the meaningful message as “Unfit.”
+3. The average remaining Oxygen level should be rounded.
