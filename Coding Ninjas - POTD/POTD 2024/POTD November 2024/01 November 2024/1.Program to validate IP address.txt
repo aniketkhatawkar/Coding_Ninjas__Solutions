@@ -1,0 +1,9 @@
+Program to validate IP address
+
+Problem statement
+You are given the text ‘IPAddress’. Your task is to check if the given text ‘IPAddress’ is a valid ‘IPv4’ or not.
+
+Conditions for a valid ‘IPv4’ are:
+
+1. Text form of ‘IPAddress’ must be ‘a.b.c.d’
+2. The values of a,b,c and d can vary from ‘0’ to ‘255’ and both ‘0’ and ‘255’ are inclusive.
