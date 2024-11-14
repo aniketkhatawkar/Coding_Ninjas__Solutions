@@ -1,0 +1,17 @@
+Number with maximum probability
+
+Problem statement
+One day Ninja Misha and Ninja Andrew (students of the Ultimate Ninja Ankush) were playing a very simple game. First, each player chooses an integer in the range from 1 to ‘N’. Let's assume that Ninja Misha chose the number ‘numMisha’, and Ninja Andrew chose the number ‘numAndrew’.
+
+Then, by using a random generator they choose a random integer ‘C’ in the range between 1 and ‘N’ (any integer from 1 to ‘N’ is chosen with the same probability), after which the winner is the player whose number was closer to ‘C’. The boys agreed that if ‘numMisha’ and ‘numAndrew’ are located on the same distance from ‘C’, Misha wins.
+
+Andrew wants to win very much, so he asks you to help him. You know the number selected by Ninja Misha, and the number ‘N’. You need to determine which value Ninja Andrew must choose, so that the probability of his victory is the highest possible.
+
+More formally, you need to find such integer ‘numAndrew’ (1 ≤ ‘numAndrew’ ≤ n), that the probability that
+
+| ‘C’ - ‘numAndrew’| < | ‘C’ - ‘numMisha’ | is maximal, where ‘C’ is the equi-probably chosen integer from 1 to ‘N’ (inclusive).
+
+For example:
+
+Given ‘N’ = 4, ‘numMisha’ = 2.
+The options available to us are 1, 3, and 4. In this case, choosing 3 would be most optimal because the probability that Andrew wins is 2 / 4, whereas if he chooses 1 or 4 it would be 1 / 4.
