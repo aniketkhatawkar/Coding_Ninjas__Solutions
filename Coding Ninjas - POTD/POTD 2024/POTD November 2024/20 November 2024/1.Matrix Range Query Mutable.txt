@@ -1,0 +1,21 @@
+Matrix Range Query Mutable
+
+Problem statement
+You are given a N * M matrix GRID. You are also given Q queries. Your task is to Perform two types of query-
+
+1) Find the sum of the rectangular submatrix defined by the upper left corner and lower right corner for each query. The position of the upper left and lower right corner is given.
+
+2) Change the value of the element at a given position. Position and the new value of the cell are given. 
+
+All indexes are 0 based.
+For example:
+
+GRID =[ [1, 2, 3],
+        [4, 5, 6],
+        [7, 8, 0] ]
+Q = 2
+Update element at (3,3) to 9 
+left corner = (1, 1), right corner = (2, 2)
+submatrix=[ [5, 6],
+            [8, 9] ]   
+Answer = 28
