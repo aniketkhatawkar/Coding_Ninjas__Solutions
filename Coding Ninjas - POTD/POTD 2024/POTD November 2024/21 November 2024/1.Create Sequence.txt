@@ -1,0 +1,9 @@
+Create Sequence
+
+Problem statement
+Ninja is good at numbers. So today his friend gave him a task that required him to find out numbers made of 2 and 5 only less than a given limit.
+
+Given an integer N, you need to print all numbers less than N which are having digits only 2 or 5 or both.
+
+For example :
+All numbers less than 30 with digits 2 and 5 are 2, 5, 22, 25.
