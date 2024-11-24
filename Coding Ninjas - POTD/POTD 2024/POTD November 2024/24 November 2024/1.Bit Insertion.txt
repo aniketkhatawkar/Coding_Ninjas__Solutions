@@ -1,0 +1,16 @@
+Bit Insertion
+
+Problem statement
+You are given two 32 bit positive integers 'X' and 'Y', and two positions 'A' and 'B'. 
+Your task is to insert 'Y' into 'X' starting from A’th position to B’th position both inclusive.
+
+Inserting a number is resetting all the bits of 'X' from position 'A' to position 'B' and then writing 'Y' in 'X' starting from index 'A'.
+
+Note : Bit positions are 0 indexed.
+
+
+For example :
+X = 1536 and Y = 7, A = 1 and B = 5,
+X is base 2 = 11000000000, Y in base 2 = 0111
+First, we clear all the bits of X from index 1 to index 5 then wrote Y in X starting from A.
+After inserting Y in X starting from position result will be 11000001110
