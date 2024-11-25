@@ -1,0 +1,10 @@
+Sweets and Ants
+
+Problem statement
+You like sweets so much that you decided to make sweets at your home, little do you know that ants living in your house love sweets too. There will be ‘T’ times when you decide to make sweets. Each time you will make ‘N’ types of sweets numbered from ‘1’ to ‘N’. Once you cook ‘ith’ sweet it has a freshness value ‘N’ and all the previous sweet’s freshness values decreases by 1. After cooking each sweet, you will store it in the fridge to cool down and leave. The moment you leave the fridge, ants will steal some of the sweets(might be 0 as well). Since they love fresh sweets, they will steal all the sweets with a freshness value greater than ‘N - S[i]’.
+
+After you cooked all the ‘N’ sweets, you went to the fridge and found that some(might be 0 as well) of the sweets were missing. You have to print an array of length ‘N’ containing 1 and 0, where the ‘ith’ value will be 1 if ants stole that sweet else, it will be 0.
+
+Note: In each test case, the first sweet has id ‘1’, the second sweet has id ‘2’ and so on.
+
+Note: Ants will come to steal every time you cook a sweet.
