@@ -1,0 +1,5 @@
+Third greatest element
+
+Problem statement
+Given an array/list 'ARR' of ‘N’ distinct integers, 
+you are supposed to find the third largest element in the given array 'ARR'.
