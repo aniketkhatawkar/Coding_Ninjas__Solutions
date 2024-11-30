@@ -1,14 +1,33 @@
-class Solution {
-    // Function is to check whether two strings are anagram of each other or not.
-    public static boolean areAnagrams(String s1, String s2) {
+import java.util.* ;
+import java.io.*; 
+public class Solution {
+    public static Boolean splitString(String str1) {
+        // Write your code here..
+        int n=str1.length();
+        String str= str1.toLowerCase();
 
-        // Your code here
-        char[] arr1 = s1.toCharArray();
-        char[] arr2 = s2.toCharArray();
+        int count1=0;
+        int count2=0;
 
-        Arrays.sort(arr1);
-        Arrays.sort(arr2);
+        for(int i=0; i<n/2; i++){
+            char ch=str.charAt(i);
+            if(ch=='a' || ch=='e' || ch=='i' || ch=='o' || ch=='u'){
+                count1++;
+            }
+        }
 
-        return Arrays.equals(arr1, arr2);
+        for(int i=n/2; i<n; i++){
+            char ch=str.charAt(i);
+            if(ch=='a' || ch=='e' || ch=='i' || ch=='o' || ch=='u'){
+                count2++;
+            }
+        }
+
+        if(count1==count2){
+            return true;
+        }
+        
+        return false;
     }
+
 }
