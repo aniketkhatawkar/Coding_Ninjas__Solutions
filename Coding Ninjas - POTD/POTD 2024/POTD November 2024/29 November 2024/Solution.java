@@ -1,21 +1,22 @@
-class Solution {
-    public String addBinary(String s1, String s2) {
-        // code here
-        StringBuilder result = new StringBuilder();
-        int i = s1.length() - 1, j = s2.length() - 1, carry = 0;
-        
-        while (i >= 0 || j >= 0 || carry == 1) {
-            int total = carry;
-            if (i >= 0) total += s1.charAt(i--) - '0';
-            if (j >= 0) total += s2.charAt(j--) - '0';
-            result.append(total % 2);
-            carry = total / 2;
+import java.util.* ;
+import java.io.*; 
+public class Solution {
+    public static Node findKthFromLast(Node head, int K) {
+        // Write your code here
+        int size=0;
+        Node temp=head;
+
+        while(temp!=null){
+            size++;
+            temp=temp.next;
         }
-        
-        while (result.length() > 1 && result.charAt(result.length() - 1) == '0') {
-            result.deleteCharAt(result.length() - 1);
+
+        temp=head;
+
+        for(int i=0; i<size-K; i++){
+            temp=temp.next;
         }
-        
-        return result.reverse().toString();
+
+        return temp;
     }
 }

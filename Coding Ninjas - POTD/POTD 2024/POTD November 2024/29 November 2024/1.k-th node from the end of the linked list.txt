@@ -1,0 +1,9 @@
+k-th node from the end of the linked list
+
+Problem statement
+Given the head node of the singly linked list and an integer ‘k’, , 
+find the value at the kth node from the end of the linked list.
+
+For example:
+
+For the above-linked list, if k=2, then the value at the kth i.e second node from the end is ‘12’.
