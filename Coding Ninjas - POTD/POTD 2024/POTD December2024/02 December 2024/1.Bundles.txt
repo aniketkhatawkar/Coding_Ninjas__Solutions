@@ -1,0 +1,12 @@
+Bundles
+
+Problem statement
+You are given integers ‘N’ and ‘K’, and a list 'STRLIST' of ‘N’ strings. 
+You are supposed to divide the string into exactly ‘N/K’(N will be divisible by K) groups and each group must consist of exactly ‘K’ strings. 
+Each string must belong to exactly one group. The score of each group is equal to the length of the longest prefix that is common to all strings of that group.
+
+You are supposed to find the maximum sum of scores of the groups.
+
+Example :
+{ “abcdty”, “abcdqwse”, “abcfhjgt”, “abcdtt” } 
+The score for this group of strings is 3, as all strings have the longest common prefix as “abc”.
