@@ -1,0 +1,13 @@
+Add Two Fractions
+
+Problem statement
+You’re given two fractions, a/b, and c/d. 
+Your task is to add these two fractions and print this answer in the simplest form.
+
+Detailed explanation ( Input/output format, Notes, Images )
+Constraints :
+1 <= T <= 10 ^ 4
+1 <= a,b,c,d <= 10 ^ 9
+Time Limit: 1 sec
+
+ Where 'T' denotes the number of test cases, 'a', 'b', 'c' and 'd' denote the integers given as input in the problem.
