@@ -1,0 +1,11 @@
+Convert Sentence
+
+Problem statement
+You are given a sentence in the form of a string ‘S’. You have to convert ‘S’ into its equivalent mobile numeric keypad sequence, i.e. print the sequence in such a way that if it is typed on the given keypad, the output should be the string ‘S’. A keypad for the reference is shown below.
+
+
+Note:
+
+1. There will be only lower case letters.
+2. There will not be any special characters or capital letters in the input string.
+3. There will be no spaces in the string.
