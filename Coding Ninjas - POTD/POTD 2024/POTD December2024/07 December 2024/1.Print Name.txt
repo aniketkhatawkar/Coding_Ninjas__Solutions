@@ -1,0 +1,13 @@
+Print Name
+
+Problem statement
+You are given a string ‘S’ of lowercase English alphabets, you are required to print ‘S’ 5 times, each on a new line using a while loop.
+
+EXAMPLE:
+Input: 'S' = ‘alicia’
+
+Output: alicia
+        alicia
+        alicia
+        alicia
+        alicia
