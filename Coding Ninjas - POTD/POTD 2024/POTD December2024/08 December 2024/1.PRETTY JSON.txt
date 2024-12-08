@@ -1,0 +1,30 @@
+PRETTY JSON
+
+Problem statement
+You are given a string 'STR' representing JSON object. Return an array of strings denoting JSON objects with proper indentation.
+
+Rules for proper indentation:
+1. Every inner brace should increase one indentation to the following lines.
+2. Every close brace should decrease one indentation to the same line and the following lines.
+3. Every ‘,’ will mean a separate line.
+4. The indents can be increased with an additional 4 spaces or ‘/t’.
+Example:
+Let the input be: "{A:"B",C:{D:"E",F:{G:"H",I:"J"}}}"
+
+Then we return the following array of strings: 
+{ 
+    A:"B",
+    C: 
+    { 
+        D:"E",
+        F: 
+        { 
+            G:"H",
+            I:"J"
+        } 
+    } 
+}
+
+Note that for every new brace we are putting an additional 4 spaces or \t.
+Note:
+1. [] and {} are only acceptable braces in this case.
