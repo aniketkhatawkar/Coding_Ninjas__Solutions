@@ -1,0 +1,11 @@
+Find all Divisors of a natural number
+
+Problem statement
+You are given a natural number ‘N’. Find all the divisors of the number ‘N’. Print them in increasing order.
+
+Example:
+Input: ‘N’ = 10 
+
+Output: [1, 2, 5, 10]
+
+1, 2, 5, and 10 are the only divisors of the number 10.
