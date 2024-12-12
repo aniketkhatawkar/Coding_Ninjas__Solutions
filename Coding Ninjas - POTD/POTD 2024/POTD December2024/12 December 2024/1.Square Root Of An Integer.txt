@@ -1,0 +1,6 @@
+Square Root Of An Integer
+
+Problem statement
+You are given an integer ‘A’. Your task is to find the greatest non-negative integer whose square is less than or equal to ‘A’.
+
+Square of a number is the product of the number with itself. For e.g. square of 3 is 9.
