@@ -1,35 +1,17 @@
 import java.util.* ;
-import java.io.*;
+import java.io.*; 
+public class Solution {
+    public static int minimumSum(int[] arr1, int[] arr2, int n) {
+        // Write your code here.
+        Arrays.sort(arr1);
+        Arrays.sort(arr2);
 
-public class Solution 
-{
-	public static int countCustomers(ArrayList<Integer> arr, int k) 
-    {
-		//    Write your code here
-		int list[] = new int[arr.size()];
-		Arrays.fill(list, 0);
+        int ans=0;
 
-		int count=0, ans=0;
+        for(int i=0; i<n; i++){
+            ans+=Math.abs(arr1[i]-arr2[i]);
+        }
 
-		for(int cus:arr){
-			if(list[cus]==0){
-				list[cus]=1;
-				if(count<k){
-					count++;
-					list[cus]=2;
-				}
-				else {
-					ans++;
-				}
-			}
-			else {
-				if(list[cus]==2){
-					count--;
-				}
-				list[cus]=0;
-			}
-		}
-
-		return ans;
-	}
+        return ans;
+    }
 }
