@@ -1,0 +1,6 @@
+One Segment
+
+Problem statement
+You are given a binary string ‘STR’, containing only zeroes and ones. This string does not contain any leading zero.
+
+Your task is to determine if this string contains at most one contiguous segment of ones.
