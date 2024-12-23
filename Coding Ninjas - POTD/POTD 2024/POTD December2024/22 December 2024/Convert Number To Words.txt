@@ -1,0 +1,6 @@
+Convert Number To Words
+
+Problem statement
+You are given an Integer ‘N’ you have to convert the integer to words.
+
+For example you are given integer N = 2234 then you have to return the string “two thousand two hundred and thirty four”.

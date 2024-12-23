@@ -1,0 +1,8 @@
+Linear Equation
+
+Problem statement
+Ninja has been given an assignment by his teacher. He has been given three integers ‘a’,’b’, and ‘c’ which represent the coefficients of the equation “ax + by = c”. His task is to find the initial integral solution of the given equation if a finite solution exists.
+
+For example:
+
+If ‘a’, ‘b’, and ‘c’ are 5, 10, and 10 respectively, the initial integral solution will be 2 and 0 for ‘x’ and ‘y’ respectively.

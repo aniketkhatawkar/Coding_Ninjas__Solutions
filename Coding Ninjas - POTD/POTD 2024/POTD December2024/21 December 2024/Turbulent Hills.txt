@@ -1,0 +1,10 @@
+Turbulent Hills
+
+Problem statement
+You have been given an array/list HEIGHT denoting the heights of ‘N’ adjacent hills. The hills are said to be dangerous if their heights are turbulent.
+
+A range of hills is turbulent if the comparison sign for their heights flips between each adjacent pair of hills. For example, if HEIGHT = [1, 2, 10, 3, 5, 1, 10, 10], then the hills in index range [1, 6] are turbulent as 2 < 10 > 3 < 5 > 1 < 10.
+
+Your task is to find the length of the longest dangerous hill range.
+
+Detailed explanation ( Input/output format, Notes, Images )
