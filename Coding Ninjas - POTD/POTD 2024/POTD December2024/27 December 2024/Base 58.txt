@@ -1,0 +1,18 @@
+Base 58
+
+Problem statement
+You are given a number N. Your goal is to convert the number into base 58.
+
+The Base58 alphabet consists of the following characters: “123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz”
+
+Each byte value from 0 to 57 maps to the alphabet above.
+
+Conversion Eg: ( according to above mapping).
+
+Base 10 | Base 58
+0       |     1  
+1       |     2  
+10      |     A  
+20      |     L
+30      |     W 
+53      |     u 
