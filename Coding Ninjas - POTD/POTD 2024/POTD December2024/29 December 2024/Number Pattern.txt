@@ -1,0 +1,11 @@
+Number Pattern
+
+Problem statement
+Write a program such that you are given an integer ‘N’ and print the pattern consisting of ‘N’ lines.
+
+For Example :
+If we are given N=3
+The pattern is :
+1 2 3 10 11 12 
+4 5 8 9 
+6 7 
