@@ -1,0 +1,12 @@
+Conversion
+
+Problem statement
+You are given two integers, ‘N’ and ‘M’. You are supposed to perform the following operation to convert ‘N’ to ‘M’.
+
+In one operation, you can:
+
+1. Choose any bit in ‘N’.
+
+2. Flip the chosen bit, i.e., if the bit is ‘0’, make it ‘1’ and vice versa.
+
+You are supposed to find the minimum number of operations needed to convert ‘N’ to ‘M’.

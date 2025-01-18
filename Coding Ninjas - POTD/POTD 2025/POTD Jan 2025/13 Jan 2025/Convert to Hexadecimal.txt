@@ -1,0 +1,11 @@
+Convert to Hexadecimal
+
+Problem statement
+You are given an integer N. Your task is to convert the number to its equivalent Hexadecimal.
+
+Note - All letters in Hexadecimal (A-F) must be in uppercase.
+
+For example:
+
+If N = 50, then output will be 32.
+If N = -50, then output will be FFFFFFCE.

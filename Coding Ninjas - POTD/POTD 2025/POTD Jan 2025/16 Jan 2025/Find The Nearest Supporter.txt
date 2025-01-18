@@ -1,0 +1,13 @@
+ Find The Nearest Supporter
+
+Problem statement
+There are contestants standing in a row. Each contestant is assigned a rating, which is an integer. A contestant supports all those whose rating is greater than their rating.
+
+Now for each contestant standing in the row, you need to tell the rating of its closest supporter on the left.
+
+If no supporter is there, store -1 in that place.
+
+For Example
+Consider the row : [ 3, 1, 5, 12, 10], with 1-based indexing -
+For index 3, there would be 2 supporters, index 1 and index 2, but index 2 is closest, hence for index 3, we will store ‘1’ (Rating of contestant). 
+For index 5, we will store ‘5’(at index 3).

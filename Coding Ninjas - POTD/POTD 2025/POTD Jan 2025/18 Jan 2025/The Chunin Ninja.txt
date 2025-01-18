@@ -1,0 +1,17 @@
+The Chunin Ninja
+
+Problem statement
+You are the Supreme Ninja Warrior on a visit to Ninja Class, and class can be represented as a rectangular matrix ‘ARR’ of ‘N’ rows and ‘M’ columns.
+
+Each Ninja has a skill level, and each element in matrix ‘ARR’ represents the skill level of the Ninja present in the class. More formally, ‘ARR[i][j]’ represents the skill level of Ninja sitting in the ‘jth’ column of the ‘ith’ row.
+
+A ninja is said to be ‘Chunin’ if he has maximum skill among all Ninjas in his column and minimum skill level among all Ninjas in his row.
+
+Can you find all the ‘Chunin’ Ninjas present in the class?
+
+Example :
+N = 3 M = 3
+ARR = [ [3, 4, 5], [2, 7, 6] , [1, 2, 4] ]
+
+Ninja at Position (0,0) has maximum skill in ‘0th’ column and minimum skill in ‘0th’ row, it is the only Chunin Ninja.
+So, we return [ 3 ] as our ‘ANS’. 
