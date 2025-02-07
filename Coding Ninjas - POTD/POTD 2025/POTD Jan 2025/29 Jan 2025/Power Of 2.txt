@@ -1,0 +1,11 @@
+Power Of 2
+Problem statement
+You are given an integer ‘N’. We can reorder the digits in any order (including the original order) such that the leading digit is not zero.
+
+Return true if and only if we can do this so that the resulting number is a power of two. Else, return false.
+
+For Example :
+
+Given :-
+‘N’ = 218
+Then the answer will be true because it can be rearranged to 128, which is 2 raised to the power of 7.
