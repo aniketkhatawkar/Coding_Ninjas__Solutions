@@ -1,0 +1,6 @@
+Flip given bits
+
+Problem statement
+You have been given an integer 'NUM' (32 bits) and an array of size 'N'.
+
+Your task is to flip all the bits of 'NUM' at position 'ARR[i]' where 0<= i <= N-1.

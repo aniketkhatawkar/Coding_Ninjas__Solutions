@@ -1,0 +1,16 @@
+Count unsorted columns
+
+Problem statement
+You are given an array ‘STRINGS’ having ‘N’ number of strings. The strings are assumed to be arranged such that there is one string in one line.
+
+You need to return the number of columns that are not sorted lexicographically.
+
+Note:
+The length of all the strings in the array is the same.
+For Example:
+If the given array is [ “bde”, “dcf”, “gat” ], then it can be assumed to arranged as
+bde
+dcf 
+gat 
+
+Now the ‘0-th’ column (‘b’, ‘d’, ‘e’) and ‘2-th’ column ( ‘e’, ‘f’, ‘t’ ) are lexicographically sorted but the ‘1-st’ column ( ‘d’, ‘c’, ‘a’ ) is not sorted lexicographically. So you need to return 1.

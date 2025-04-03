@@ -1,0 +1,7 @@
+Convert To Lower Case
+
+Problem statement
+You are given a string ‘str’, your task is to convert all the characters of the string into lowercase letters.
+
+For example:
+You are given, ‘str’ = ‘AbcdEfgh’, in this string if you convert all the characters into lowercase, the string will be ‘abcdefgg’. Hence it is the answer.

@@ -1,0 +1,13 @@
+Different Bits Sum Pairwise
+
+Problem statement
+You are given an arbitrary array ‘arr’ consisting of 'N' non-negative integers. You need to find the sum of bit differences of all the pairs that can be formed in the given array.
+
+In simple words, let us define f(x, y) as the count of different bits at the same position in the binary representations of two integers, x and y.
+
+You need to find the summation of f over all possible values of x and y in the input array I.e sum( f(arr[i], arr[j])) for all 0 <= i < N and 0 <= j < N.
+
+For Example :
+f(2, 3) = 1, as 2 → 0010 and 3 → 0011, only the last bit is different in both the numbers, hence f(2, 3) is 1.
+Note :
+As the final answer may be very large, return your answer modulo 10^9 + 7.

@@ -1,0 +1,22 @@
+Minimum cash flow
+
+Problem statement
+There are ‘N’ friends who have borrowed money from one another. Now, they wanted to settle their debts by giving or taking some money among themselves.
+
+Your task is to design a series of transactions, such that the total cash flow among them is minimized.
+
+For example:
+
+Let there be three friends ‘A’, ‘B’, ‘C’  with debts-
+
+• A has to pay $ 2000 to B.
+• A has to pay $ 1000 to C.
+• B has to pay $ 3000 to C.
+• C has to pay $ 1000 to A.
+
+Then their minimized cash flow system will be-
+
+• A will finally pay $ 2000 to C.
+• B will finally pay $ 1000 to C.
+
+Thus, the total cash flow among them will be $ 3000. 

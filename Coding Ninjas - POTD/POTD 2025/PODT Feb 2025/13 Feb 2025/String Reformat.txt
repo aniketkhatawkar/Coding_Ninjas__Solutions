@@ -1,0 +1,9 @@
+ String Reformat
+
+Problem statement
+You are given a string ‘S’ consisting of alphanumeric characters, the string divided into groups by a ‘-’. Your task is to reformat the string that all the groups contain exactly ‘K’ characters. All the lowercase characters should be converted to uppercase.
+
+Note:
+The first group may have fewer characters than ‘K’.
+For example:
+You are given ‘S’ =’A1-ijklmno-pqr’ and k = ‘3’, then the string contains 3 parts, [“A1”, “ijklmno”, “pqr”], then you can form the string in groups ["A1I”, “JKL”, “MNO”, “PQR"] of uppercase characters. Hence the answer is "A1I-JKL-MNO-PQR"

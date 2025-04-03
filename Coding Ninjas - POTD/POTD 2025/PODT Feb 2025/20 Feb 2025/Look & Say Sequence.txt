@@ -1,0 +1,24 @@
+Look & Say Sequence
+
+Problem statement
+You have been given a positive integer N. Your task is to find the Nth term of the Look-And-Say sequence.
+
+The Look-And-Say sequence is a sequence of positive integers. The sequence is as follows:
+
+1, 11, 21, 1211, 111221, 312211, 13112221,...
+
+This sequence is constructed in the following way:
+
+The first number is 1.
+
+This is read as “One 1”. 
+Hence, the second number will be 11.
+
+The second number is read as “Two 1s”. 
+Hence, the third number will be 21.
+
+The third number is read as “One 2, One 1”. 
+Hence, the fourth number will be 1211.
+
+The fourth term is read as “One 1, One 2, Two 1s”.
+Hence, the fifth term will be 111221. And so on.

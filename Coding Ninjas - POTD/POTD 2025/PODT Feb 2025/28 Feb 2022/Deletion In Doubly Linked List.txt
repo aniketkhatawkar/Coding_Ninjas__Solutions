@@ -1,0 +1,13 @@
+Deletion In Doubly Linked List
+
+Problem statement
+You are given a Doubly Linked List of ‘N’ positive integers. Your task is to delete a node at position ‘POS’ in the linked list.
+
+Note:
+Assume that the Indexing for the linked list starts from 0.
+EXAMPLE:
+Input: ‘N’ = 5, 'LIST' = [1, 1, 2, 3, 4, -1], ‘POS’ = 1.
+
+Output: 1 < - > 2 < - > 3 < - > 4 
+
+Here in the given list, we can see that the node at position 1 is deleted.

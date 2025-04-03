@@ -1,0 +1,9 @@
+Custom Sort String
+
+Problem statement
+You are provided with the two strings named X and Y respectively. Y has its own specific order and has no repeating characters. Your task is to arrange the characters of the first string i.e. X in such a way that the order of characters in X is exactly the same as in Y, which means if ‘d’ occurs after ‘c’ in Y then it should also occur after ‘c’ in X ( obviously if X has ‘d’ and ‘c’ as characters in it ). All you have to do is, convert string X in the specific order with respect to string Y.
+
+Note :
+
+Both the strings have only lowercase English alphabets. 
+There may be more than one correct solution, you have to return any one of the possible solutions.

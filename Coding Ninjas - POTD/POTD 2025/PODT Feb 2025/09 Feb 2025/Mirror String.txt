@@ -1,0 +1,6 @@
+Mirror String
+
+Problem statement
+You are given a string S containing only uppercase English characters. Find whether S is the same as its reflection in the mirror.
+
+For Example, S = “AMAMA” is the same as its reflection in the mirror.

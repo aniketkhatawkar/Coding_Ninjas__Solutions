@@ -1,0 +1,7 @@
+Arranging Array
+
+Problem statement
+Given an array of size N, containing N integers. Find out in what order should the elements be organized such that the function F(i) = a[i+1] ^ a[i] is maximum for 0 <= i <= N - 1.
+
+Note :
+You do not need to print anything; it has already been taken care of. Just implement the given function. 
