@@ -1,0 +1,27 @@
+Find the lone set bit
+
+Problem statement
+You are given a single non-negative integer ‘N’ who’s binary representation consists of a single ‘1’ digit and the rest of the digits are ‘0’s. Your task is to find the position of the only ‘1’ digit. In other words, your task is to find the position of the only set bit in the binary representation of the input integer ‘N’.
+
+The position of the set bit must be counted from the LSB (Least Significant Bit) end of the Binary number. If the count of set bits in the Binary number is not equal to 1, then your function should return ‘-1’ as output.
+
+Example:-
+INPUT   : N = 4
+OUTPUT  : 3
+
+In the above example, N = 4, whose Binary representation is “0100”. It is clearly visible that the binary number contains a single set bit, at a position 3 from the LSB end. Hence the output is 3
+
+INPUT : N = 8
+OUTPUT: 4
+
+In the above example, N = 8, whose Binary representation is “1000”. It is clearly visible that the binary number contains a single set bit, at a position 4 from the LSB end. Hence the output is 4
+
+INPUT   : N = 9
+OUTPUT  : -1
+
+In the above example, N = 9, whose Binary representation is “1001”.  Now, the binary number contains 2 set bits, at a position 4 and 1 from LSB end. Hence the output is -1.
+
+INPUT   : N = 0
+OUTPUT  : -1
+
+In the above example, N = 0, whose Binary representation is “0000”.  Now, the binary number contains no set bits at all. Hence the output will be -1.

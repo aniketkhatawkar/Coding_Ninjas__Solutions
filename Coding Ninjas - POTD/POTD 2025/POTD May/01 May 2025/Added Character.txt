@@ -1,0 +1,10 @@
+Added Character
+
+Problem statement
+You are given a string 'S'. Now one more additional character is introduced in this string, which turns 'S' into new string 'T'. You have to find out this newly added character.
+
+Note:
+
+1. All the characters in string 'S' and 'T' consist of uppercase English alphabets.
+
+2. Length of string 'T' is always 1 more than the length of string 'S'.

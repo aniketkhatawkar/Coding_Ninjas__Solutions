@@ -1,0 +1,10 @@
+Make Groups
+
+Problem statement
+Given a positive integer ‘N’. Divide numbers from 1 to ‘N’ in two groups such that the absolute difference of sum of each group is minimum and print the absolute difference.
+
+Example :
+
+If ‘N’ : 3
+Then the two groups can be : {3} and {2, 1}
+The absolute difference of sum between above two groups is : 0

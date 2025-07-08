@@ -1,0 +1,8 @@
+Reverse Coding
+
+Problem statement
+As a part of its annual techno-cultural fest, NinjaCity will conduct a technical event, Decode, where it has given a matrix, and the participants have to decode it.
+
+The participants are given a N*M matrix; they need to print the rows in reverse order. Do this for every row.
+
+Among the participants, a participant named Ninja is new to programming and doesn’t have much experience; he asks you to solve the problem. Can you help Ninja reverse all the rows in reverse order?

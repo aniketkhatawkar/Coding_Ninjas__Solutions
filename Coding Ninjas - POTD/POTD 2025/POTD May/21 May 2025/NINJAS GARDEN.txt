@@ -1,0 +1,10 @@
+NINJAS GARDEN
+
+Problem statement
+Nowadays ninja develops an interest in gardening. He wants to grow flowers in his garden. So he makes his garden in the form array-like there is an ‘N’ number of slots in the garden. Ninja has grown special flowers that have unique properties like ‘N’ flowers will bloom one by one in N days. On each day, there will be exactly one flower blooming and it will be in the status of blooming since then.
+
+So your task is to return on which day there exists two flowers in the status of blooming, and also the number of flowers between them is K and these flowers are not blooming.
+
+You will be provided with an array of ‘FLOWERS’ consisting of a number from 1 to N. Each number in the array represents the place where the flower will open on that day and an integer ‘K’.
+
+For example, FLOWERS[i] = X means that the unique flower that blooms at day ‘i’ will be at position X, where i and X will be in the range from 1 to N.

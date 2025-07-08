@@ -1,0 +1,8 @@
+Minimum Distance Between Two Numbers
+
+Problem statement
+You’re given an array of 'N' integers, and two integers 'X' and 'Y'. Your task is to find the minimum distance between 'X' and 'Y' in the array. If either or both of them are not present in the array then return -1.
+
+NOTE :
+1. The array might also contain duplicates. 
+2. It is guaranteed that 'X' and 'Y' are two distinct integers i.e. 'X' is not equal to 'Y'.

@@ -1,0 +1,6 @@
+Corporate Flight Bookings
+
+Problem statement
+You have been given an array/list “BOOKINGS” of booking details of ‘N’ flights from 1 to ‘N’. Each booking detail contains three positive integers [first, last, seats] which represent a booking for flights “first” through “last” (inclusive) with “seats” seats reserved for each flight in the range.
+
+Now, you are supposed to return an array/list “ANSWER” of length ‘N’, where answer[i] represents the total number of seats reserved for ith flight.

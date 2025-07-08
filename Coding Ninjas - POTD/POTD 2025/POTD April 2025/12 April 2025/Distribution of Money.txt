@@ -1,0 +1,10 @@
+Distribution of Money
+
+Problem statement
+'N' friends are playing together. The wallet balance of each friend is given in an array 'ARR'. In one transaction, a friend who has a wallet balance greater than or equal to Rs. 'K' can give Rs. 'K' to any other friend.
+
+After the transaction, the wallet balance of money taker increases by Rs. 'K', whereas the wallet balance of money giver decreases by Rs. 'K'.
+
+You are given the array containing the wallet balance of each friend and the special number 'K'. Your task is to find the minimum number of transactions needed to make the wallet balance of all the friends the same.
+
+In case if it is not possible to make the wallet balance of all the friends equal, then print -1 in this case.

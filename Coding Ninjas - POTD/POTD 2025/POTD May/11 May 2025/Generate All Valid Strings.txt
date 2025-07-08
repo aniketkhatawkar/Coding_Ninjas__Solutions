@@ -1,0 +1,13 @@
+Generate All Valid Strings
+
+Problem statement
+Ninja has been given a string ‘STR’ containing ‘(‘ and ‘)’. ‘STR’ may also contain lower case alphabets. In order to make ‘STR’ valid Ninja can remove either ‘)’ or ‘(’ from ‘STR’.
+
+Here are some examples of valid ‘STR’ “((a))”, “(g)()”, “(())()”, "" (an empty string is also a valid string).
+
+Ninja wants to know all the possible valid strings that can be formed from ‘STR’ by minimum possible removals (possibly zero).
+
+Can you help Ninja to generate all valid strings from ‘STR’ by minimum removals?
+
+For Example :
+For the given ‘STR’ =  “()(()”, we can form a valid string “()()” by removing ‘(‘ at index 2 or 3.

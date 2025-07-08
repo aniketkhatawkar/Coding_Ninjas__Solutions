@@ -1,0 +1,9 @@
+String Breaker
+
+Problem statement
+You are given a string ‘S’ and a set of words named ‘Dictionary’. You can perform the operation of breaking the given string 'S', in any possible way and divide the given string into any number of subparts. Your task is to break the given string 'S', such that all the subparts are present in the Dictionary. You just need to tell the minimum number of times you need to break the string 'S' in order to accomplish the above task.
+
+Note:
+1. If string 'S' is already present in the dictionary, then you don’t need to break the string and you can print 0 in such cases.
+2. If it is impossible to complete the given task, then print -1.
+3. All the characters of string 'S' and words inside the Dictionary only contain Uppercased English Alphabets.

@@ -1,0 +1,26 @@
+Delete Node In BST
+
+Problem statement
+You have been given a Binary Search Tree of integers with ‘N’ nodes. You are also given data of a node of this tree. Your task is to delete the given node from the BST.
+
+
+
+A binary search tree (BST) is a binary tree data structure that has the following properties:
+
+• The left subtree of a node contains only nodes with data less than the node’s data.
+
+• The right subtree of a node contains only nodes with data greater than the node’s data.
+
+• Both the left and right subtrees must also be binary search trees.
+Example:
+For the given BST, if we want to delete the node with data 5 :
+
+The modified BST will be:
+
+Please notice that another valid answer is:
+
+Note :
+
+1. The node which we want to delete will always be present in the given tree.
+
+2. If after deletion the tree becomes empty, print -1.
